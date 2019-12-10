@@ -1,0 +1,37 @@
+{
+  "name": "ecma6-features",
+  "version": "0.1.0",
+  "description": "just testing",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "block-scope-func": "node ./scripts/block-scope-func",
+    "arrow-func": "node ./scripts/arrow-func",
+    "spred-op": "node ./scripts/spread-op",
+    "rest-param": "node ./scripts/rest-param",
+    "gen-func": "node ./scripts/gen-func",
+    "default-param-val": "node ./scripts/default-param-val",
+    "template-literal": "node ./scripts/template-literal",
+    "pattern-matching": "node ./scripts/pattern-matching",
+    "modules": "node ./scripts/modules",
+    "classes": "node ./scripts/classes",
+    "symbols": "node ./scripts/symbols",
+    "new-builtin-funcs": "node ./scripts/new-builtin-funcs",
+    "promise-and-asyncawait": "node ./scripts/promise-and-asyncawait",
+    "proxy": "node ./scripts/proxy"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "leifl@kth.se",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.13.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
